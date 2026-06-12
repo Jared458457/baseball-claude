@@ -24,8 +24,8 @@ from reportlab.lib.enums import TA_CENTER, TA_LEFT
 # -----------------------------------------------------------------------------
 # Constants
 # -----------------------------------------------------------------------------
-NUM_PLAYERS = 13
-NUM_GAMES   = 20
+NUM_PLAYERS = 12
+NUM_GAMES   = 14
 NUM_INNINGS = 6
 FIELD_SIZE  = 9
 
@@ -35,7 +35,7 @@ PITCHER_POS = 1
 CATCHER_POS = 2
 THIRD_POS   = 5
 
-PITCHER_ELIGIBLE = {"P3","P4","P6","P9","P10","P12","P13"}
+PITCHER_ELIGIBLE = {"P3","P4","P6","P9","P12","P13"}
 CATCHER_ELIGIBLE = {"P1","P4","P9","P12"}
 NO_THIRD_BASE    = {"P2","P5","P7"}
 
