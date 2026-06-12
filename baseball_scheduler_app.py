@@ -24,9 +24,9 @@ from reportlab.lib.enums import TA_CENTER, TA_LEFT
 # -----------------------------------------------------------------------------
 # Constants
 # -----------------------------------------------------------------------------
-NUM_PLAYERS = 10
-NUM_GAMES   = 3
-NUM_INNINGS = 5
+NUM_PLAYERS = 13
+NUM_GAMES   = 14
+NUM_INNINGS = 6
 FIELD_SIZE  = 9
 
 PLAYERS = [f"P{i}" for i in range(1, NUM_PLAYERS + 1)]
