@@ -25,7 +25,7 @@ from reportlab.lib.enums import TA_CENTER, TA_LEFT
 # Constants
 # -----------------------------------------------------------------------------
 NUM_PLAYERS = 13
-NUM_GAMES   = 14
+NUM_GAMES   = 20
 NUM_INNINGS = 6
 FIELD_SIZE  = 9
 
