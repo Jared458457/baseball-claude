@@ -37,7 +37,7 @@ from reportlab.platypus import (
 # Baseball constants
 # ==============================================================================
 NUM_PLAYERS = 13
-NUM_GAMES   = 14
+NUM_GAMES   = 13
 NUM_INNINGS = 6
 FIELD_SIZE  = 9   # players on field each inning
 BENCH_SIZE  = NUM_PLAYERS - FIELD_SIZE  # 4 sit each inning
@@ -66,7 +66,7 @@ POS_SHORT_LABEL = {
     6:"SS",7:"LF",8:"CF", 9:"RF", 0:"BN",
 }
 
-PITCHER_ELIGIBLE = {"P3","P4","P6","P9","P10","P12","P13"}
+PITCHER_ELIGIBLE = {"P3","P4","P6","P9","P10","P11","P12","P13"}
 CATCHER_ELIGIBLE = {"P1","P4","P9","P12"}
 NO_THIRD_BASE    = {"P2","P5","P7"}
 
