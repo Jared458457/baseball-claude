@@ -1,6 +1,6 @@
 bash
 
-cat > /home/claude/v2/baseball_scheduler.py << 'EOF'
+cat > /home/claude/v2/baseball_scheduler.py << 'PYEOF'
 """
 Baseball Defensive Assignment Scheduler
 Run locally : streamlit run baseball_scheduler.py
